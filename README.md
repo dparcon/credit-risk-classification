@@ -1,5 +1,4 @@
 # credit-risk-classification
-Module 20 challenge
 
 ## Overview of the Analysis
 The goal of this challenge was to train and evaluate a model based on loan risk. We begin by calling the data from the loan_data.csv file. After, we used a Logisitic regression to predict loan_status using the other feautures in the file: loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks, and total_debt. We do this by splitting the data, initializing the model, and pluggin the variables into a confusion matrix and classification report.
